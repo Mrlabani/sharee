@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/handler.go": {
+      "runtime": "go"
+    }
+  },
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/handler.go" }
+  ]
+}
